@@ -36,3 +36,124 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(50, 94, 110);
+  color: white;
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.logo{
+  border-radius: 150px;
+  height: 100px;
+}
+
+.teamCard{
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 30rem;
+  height: 30rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #282c34;
+  font-size: x-large;
+}
+
+.playerCard{
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 17rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #282c34;
+}
+
+.playerImage {
+  align-items: center;
+  max-height: 10rem;
+  max-width: 15rem;
+  padding: 1rem;
+}
+
+.teamPlayerCard {
+  font-size: xx-small;
+  padding: 0;
+}
+
+.playerCardDelete {
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  background-color: rgb(208, 195, 195);
+}
+
+.playerCardDelete:hover {
+  background-color: red;
+  color: white;
+}
+
+.fantasyCardDelete {
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  background-color: rgb(208, 195, 195);
+}
+
+.fantasyCardDelete:hover {
+  background-color: red;
+  color: white;
+}
+
+.playerCardEdit {
+  width: 2.5rem;
+  text-align: center;
+  margin-left: 14rem;
+
+}
+
+.fantasyForm {
+  text-align: center;
+  align-items: center;
+}
+
+.fantasyImage {
+  max-width: 15rem;
+  max-height: 15rem;
+  align-items: center;
+  padding-left: 8rem;
+}
+
+.fantasyCard {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 30rem;
+  height: 28rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #282c34;
+}
+
+.logoImage{
+  max-width: 20rem;
+  max-height: 15rem;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
